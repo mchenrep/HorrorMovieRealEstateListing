@@ -1,0 +1,42 @@
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #444;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ddd;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+.tab-btn:hover {
+    color: white;
+}
+
+.tab-btn.active {
+    color: white;
+    border-bottom: 3px solid crimson; /* highlight tab */
+}
+
+/* Optional page styling */
+
+body {
+    background: #111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+}
+
+.tab-content {
+    display: none;
+}
+
+small {
+    font-style: italic;
+}
+
